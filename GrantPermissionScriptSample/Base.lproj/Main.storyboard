@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="GrantPermissionScriptSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmi-iQ-D6n">
+                                <rect key="frame" x="249.5" y="251" width="102" height="30"/>
+                                <state key="normal" title="Access Photos"/>
+                                <connections>
+                                    <action selector="didTapPhotos:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mzf-QR-UCt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hpy-JX-kYa">
+                                <rect key="frame" x="225.5" y="291" width="149" height="30"/>
+                                <state key="normal" title="Access Address Book"/>
+                                <connections>
+                                    <action selector="didTapAddress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZoC-7a-98F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLe-zk-l1S">
+                                <rect key="frame" x="242.5" y="331" width="115" height="30"/>
+                                <state key="normal" title="Access Calendar"/>
+                                <connections>
+                                    <action selector="didTapCalendar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dSS-9v-tJU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGu-Kf-BA6">
+                                <rect key="frame" x="243.5" y="371" width="113" height="30"/>
+                                <state key="normal" title="Access HomeKit"/>
+                                <connections>
+                                    <action selector="didTapHomeKit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iNv-gJ-lta"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2j-7D-lRR">
+                                <rect key="frame" x="256.5" y="200" width="89" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f8I-ib-n5c">
+                                <rect key="frame" x="0.0" y="300" width="600" height="0.0"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="uP2-91-0fV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Hpy-JX-kYa" firstAttribute="top" secondItem="f8I-ib-n5c" secondAttribute="bottom" constant="-9" id="5gc-f1-qjc"/>
+                            <constraint firstItem="Hpy-JX-kYa" firstAttribute="top" secondItem="hmi-iQ-D6n" secondAttribute="bottom" constant="10" id="68d-cI-cZE"/>
+                            <constraint firstItem="hmi-iQ-D6n" firstAttribute="top" secondItem="r2j-7D-lRR" secondAttribute="bottom" constant="30" id="6PF-Sm-jnz"/>
+                            <constraint firstItem="xGu-Kf-BA6" firstAttribute="centerX" secondItem="TLe-zk-l1S" secondAttribute="centerX" id="Cj2-w6-hqZ"/>
+                            <constraint firstItem="TLe-zk-l1S" firstAttribute="top" secondItem="f8I-ib-n5c" secondAttribute="bottom" constant="31" id="HbJ-gB-wdH"/>
+                            <constraint firstItem="r2j-7D-lRR" firstAttribute="centerX" secondItem="hmi-iQ-D6n" secondAttribute="centerX" id="Qeb-44-1WV"/>
+                            <constraint firstItem="Hpy-JX-kYa" firstAttribute="centerX" secondItem="f8I-ib-n5c" secondAttribute="centerX" id="WQ0-gJ-eI4"/>
+                            <constraint firstItem="TLe-zk-l1S" firstAttribute="centerX" secondItem="f8I-ib-n5c" secondAttribute="centerX" id="YXp-Qr-rPe"/>
+                            <constraint firstItem="f8I-ib-n5c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="haC-fQ-A1p"/>
+                            <constraint firstItem="xGu-Kf-BA6" firstAttribute="top" secondItem="TLe-zk-l1S" secondAttribute="bottom" constant="10" id="nZR-I3-zEl"/>
+                            <constraint firstItem="hmi-iQ-D6n" firstAttribute="centerX" secondItem="Hpy-JX-kYa" secondAttribute="centerX" id="sRt-8S-kwm"/>
+                            <constraint firstItem="f8I-ib-n5c" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="ttf-qO-s4n"/>
+                            <constraint firstItem="f8I-ib-n5c" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="u8w-q6-Asx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="r2j-7D-lRR" id="4kL-26-Q0S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

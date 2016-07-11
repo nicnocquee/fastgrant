@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031AA6C31D33EA87007B83B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031AA6C21D33EA87007B83B6 /* AppDelegate.swift */; };
+		031AA6C51D33EA87007B83B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031AA6C41D33EA87007B83B6 /* ViewController.swift */; };
+		031AA6C81D33EA87007B83B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031AA6C61D33EA87007B83B6 /* Main.storyboard */; };
+		031AA6CA1D33EA87007B83B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031AA6C91D33EA87007B83B6 /* Assets.xcassets */; };
+		031AA6D81D33EA88007B83B6 /* GrantPermissionScriptSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031AA6D71D33EA88007B83B6 /* GrantPermissionScriptSampleTests.swift */; };
+		031AA6E31D33EA88007B83B6 /* GrantPermissionScriptSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031AA6E21D33EA88007B83B6 /* GrantPermissionScriptSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		031AA6D41D33EA88007B83B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 031AA6B71D33EA87007B83B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 031AA6BE1D33EA87007B83B6;
+			remoteInfo = GrantPermissionScriptSample;
+		};
+		031AA6DF1D33EA88007B83B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 031AA6B71D33EA87007B83B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 031AA6BE1D33EA87007B83B6;
+			remoteInfo = GrantPermissionScriptSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		031AA6BF1D33EA87007B83B6 /* GrantPermissionScriptSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrantPermissionScriptSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		031AA6C21D33EA87007B83B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		031AA6C41D33EA87007B83B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		031AA6C71D33EA87007B83B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		031AA6C91D33EA87007B83B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		031AA6CE1D33EA87007B83B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031AA6D31D33EA88007B83B6 /* GrantPermissionScriptSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrantPermissionScriptSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		031AA6D71D33EA88007B83B6 /* GrantPermissionScriptSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrantPermissionScriptSampleTests.swift; sourceTree = "<group>"; };
+		031AA6D91D33EA88007B83B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031AA6DE1D33EA88007B83B6 /* GrantPermissionScriptSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrantPermissionScriptSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		031AA6E21D33EA88007B83B6 /* GrantPermissionScriptSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrantPermissionScriptSampleUITests.swift; sourceTree = "<group>"; };
+		031AA6E41D33EA88007B83B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		031AA6BC1D33EA87007B83B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031AA6D01D33EA88007B83B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031AA6DB1D33EA88007B83B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		031AA6B61D33EA87007B83B6 = {
+			isa = PBXGroup;
+			children = (
+				031AA6C11D33EA87007B83B6 /* GrantPermissionScriptSample */,
+				031AA6D61D33EA88007B83B6 /* GrantPermissionScriptSampleTests */,
+				031AA6E11D33EA88007B83B6 /* GrantPermissionScriptSampleUITests */,
+				031AA6C01D33EA87007B83B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		031AA6C01D33EA87007B83B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				031AA6BF1D33EA87007B83B6 /* GrantPermissionScriptSample.app */,
+				031AA6D31D33EA88007B83B6 /* GrantPermissionScriptSampleTests.xctest */,
+				031AA6DE1D33EA88007B83B6 /* GrantPermissionScriptSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		031AA6C11D33EA87007B83B6 /* GrantPermissionScriptSample */ = {
+			isa = PBXGroup;
+			children = (
+				031AA6C21D33EA87007B83B6 /* AppDelegate.swift */,
+				031AA6C41D33EA87007B83B6 /* ViewController.swift */,
+				031AA6C61D33EA87007B83B6 /* Main.storyboard */,
+				031AA6C91D33EA87007B83B6 /* Assets.xcassets */,
+				031AA6CE1D33EA87007B83B6 /* Info.plist */,
+			);
+			path = GrantPermissionScriptSample;
+			sourceTree = "<group>";
+		};
+		031AA6D61D33EA88007B83B6 /* GrantPermissionScriptSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				031AA6D71D33EA88007B83B6 /* GrantPermissionScriptSampleTests.swift */,
+				031AA6D91D33EA88007B83B6 /* Info.plist */,
+			);
+			path = GrantPermissionScriptSampleTests;
+			sourceTree = "<group>";
+		};
+		031AA6E11D33EA88007B83B6 /* GrantPermissionScriptSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				031AA6E21D33EA88007B83B6 /* GrantPermissionScriptSampleUITests.swift */,
+				031AA6E41D33EA88007B83B6 /* Info.plist */,
+			);
+			path = GrantPermissionScriptSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		031AA6BE1D33EA87007B83B6 /* GrantPermissionScriptSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031AA6E71D33EA88007B83B6 /* Build configuration list for PBXNativeTarget "GrantPermissionScriptSample" */;
+			buildPhases = (
+				031AA6BB1D33EA87007B83B6 /* Sources */,
+				031AA6BC1D33EA87007B83B6 /* Frameworks */,
+				031AA6BD1D33EA87007B83B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrantPermissionScriptSample;
+			productName = GrantPermissionScriptSample;
+			productReference = 031AA6BF1D33EA87007B83B6 /* GrantPermissionScriptSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		031AA6D21D33EA88007B83B6 /* GrantPermissionScriptSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031AA6EA1D33EA88007B83B6 /* Build configuration list for PBXNativeTarget "GrantPermissionScriptSampleTests" */;
+			buildPhases = (
+				031AA6CF1D33EA88007B83B6 /* Sources */,
+				031AA6D01D33EA88007B83B6 /* Frameworks */,
+				031AA6D11D33EA88007B83B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				031AA6D51D33EA88007B83B6 /* PBXTargetDependency */,
+			);
+			name = GrantPermissionScriptSampleTests;
+			productName = GrantPermissionScriptSampleTests;
+			productReference = 031AA6D31D33EA88007B83B6 /* GrantPermissionScriptSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		031AA6DD1D33EA88007B83B6 /* GrantPermissionScriptSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031AA6ED1D33EA88007B83B6 /* Build configuration list for PBXNativeTarget "GrantPermissionScriptSampleUITests" */;
+			buildPhases = (
+				031AA6DA1D33EA88007B83B6 /* Sources */,
+				031AA6DB1D33EA88007B83B6 /* Frameworks */,
+				031AA6DC1D33EA88007B83B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				031AA6E01D33EA88007B83B6 /* PBXTargetDependency */,
+			);
+			name = GrantPermissionScriptSampleUITests;
+			productName = GrantPermissionScriptSampleUITests;
+			productReference = 031AA6DE1D33EA88007B83B6 /* GrantPermissionScriptSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		031AA6B71D33EA87007B83B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DelightfulDev;
+				TargetAttributes = {
+					031AA6BE1D33EA87007B83B6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					031AA6D21D33EA88007B83B6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 031AA6BE1D33EA87007B83B6;
+					};
+					031AA6DD1D33EA88007B83B6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 031AA6BE1D33EA87007B83B6;
+					};
+				};
+			};
+			buildConfigurationList = 031AA6BA1D33EA87007B83B6 /* Build configuration list for PBXProject "GrantPermissionScriptSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 031AA6B61D33EA87007B83B6;
+			productRefGroup = 031AA6C01D33EA87007B83B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				031AA6BE1D33EA87007B83B6 /* GrantPermissionScriptSample */,
+				031AA6D21D33EA88007B83B6 /* GrantPermissionScriptSampleTests */,
+				031AA6DD1D33EA88007B83B6 /* GrantPermissionScriptSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		031AA6BD1D33EA87007B83B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031AA6CA1D33EA87007B83B6 /* Assets.xcassets in Resources */,
+				031AA6C81D33EA87007B83B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031AA6D11D33EA88007B83B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031AA6DC1D33EA88007B83B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		031AA6BB1D33EA87007B83B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031AA6C51D33EA87007B83B6 /* ViewController.swift in Sources */,
+				031AA6C31D33EA87007B83B6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031AA6CF1D33EA88007B83B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031AA6D81D33EA88007B83B6 /* GrantPermissionScriptSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031AA6DA1D33EA88007B83B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031AA6E31D33EA88007B83B6 /* GrantPermissionScriptSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		031AA6D51D33EA88007B83B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 031AA6BE1D33EA87007B83B6 /* GrantPermissionScriptSample */;
+			targetProxy = 031AA6D41D33EA88007B83B6 /* PBXContainerItemProxy */;
+		};
+		031AA6E01D33EA88007B83B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 031AA6BE1D33EA87007B83B6 /* GrantPermissionScriptSample */;
+			targetProxy = 031AA6DF1D33EA88007B83B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		031AA6C61D33EA87007B83B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031AA6C71D33EA87007B83B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		031AA6E51D33EA88007B83B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		031AA6E61D33EA88007B83B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		031AA6E81D33EA88007B83B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrantPermissionScriptSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delightfuldev.GrantPermissionScriptSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		031AA6E91D33EA88007B83B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrantPermissionScriptSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delightfuldev.GrantPermissionScriptSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		031AA6EB1D33EA88007B83B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GrantPermissionScriptSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delightfuldev.GrantPermissionScriptSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrantPermissionScriptSample.app/GrantPermissionScriptSample";
+			};
+			name = Debug;
+		};
+		031AA6EC1D33EA88007B83B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GrantPermissionScriptSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delightfuldev.GrantPermissionScriptSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrantPermissionScriptSample.app/GrantPermissionScriptSample";
+			};
+			name = Release;
+		};
+		031AA6EE1D33EA88007B83B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GrantPermissionScriptSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delightfuldev.GrantPermissionScriptSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GrantPermissionScriptSample;
+			};
+			name = Debug;
+		};
+		031AA6EF1D33EA88007B83B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GrantPermissionScriptSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delightfuldev.GrantPermissionScriptSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GrantPermissionScriptSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		031AA6BA1D33EA87007B83B6 /* Build configuration list for PBXProject "GrantPermissionScriptSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031AA6E51D33EA88007B83B6 /* Debug */,
+				031AA6E61D33EA88007B83B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		031AA6E71D33EA88007B83B6 /* Build configuration list for PBXNativeTarget "GrantPermissionScriptSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031AA6E81D33EA88007B83B6 /* Debug */,
+				031AA6E91D33EA88007B83B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		031AA6EA1D33EA88007B83B6 /* Build configuration list for PBXNativeTarget "GrantPermissionScriptSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031AA6EB1D33EA88007B83B6 /* Debug */,
+				031AA6EC1D33EA88007B83B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		031AA6ED1D33EA88007B83B6 /* Build configuration list for PBXNativeTarget "GrantPermissionScriptSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031AA6EE1D33EA88007B83B6 /* Debug */,
+				031AA6EF1D33EA88007B83B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 031AA6B71D33EA87007B83B6 /* Project object */;
+}
