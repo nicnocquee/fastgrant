@@ -29,12 +29,8 @@ platform :ios do
       os: '9.3',
       access: ['all']
     )
-    scan(
-      device: 'iPhone 6',
-      sdk: 'iphonesimulator9.3',
-      clean: true,
-      output_directory: 'build'
-    )
+    simulatorId = Helper.backticks('xcrun instruments -s | grep -o "iPhone 6 (9.3) \[.*\]" | grep -o "\[.*\]" | sed "s/^\[\(.*\)\]$/\1/"').strip!
+    sh "set -o pipefail && env NSUnbufferedIO=YES xcodebuild -scheme GrantPermissionScriptSample -project ../GrantPermissionScriptSample.xcodeproj -destination 'platform=iOS Simulator,id="+simulatorId+"' clean build test | xcpretty "
     reset_simulator_permission(
       device: 'iPhone 6',
       os: '9.3',

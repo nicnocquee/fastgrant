@@ -1,7 +1,7 @@
 About
 ==
 
-[Fastlane](https://github.com/fastlane/fastlane) actions to grant iOS permissions in iPhone Simulator. They are usefule when running tests in CIs like [Travis](https://travis-ci.org).
+[Fastlane](https://github.com/fastlane/fastlane) actions to grant iOS permissions in iPhone Simulator. They are useful when running unit and UI tests in CIs like [Travis](https://travis-ci.org).
 
 Installation
 ==
