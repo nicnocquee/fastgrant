@@ -1,0 +1,13 @@
+language: objective-c
+xcode_project: GrantPermissionScriptSample.xcodeproj # path to your xcodeproj folder
+xcode_scheme: GrantPermissionScriptSample
+xcode_sdk: iphonesimulator9.3
+osx_image: xcode7.3
+branches:
+  only:
+    - master
+install:
+  - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+  - gem install fastlane --no-rdoc --no-ri --no-document --quiet
+script:
+  - fastlane test
