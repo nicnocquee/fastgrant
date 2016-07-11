@@ -3,7 +3,9 @@
 About
 ==
 
-[Fastlane](https://github.com/fastlane/fastlane) actions to grant iOS permissions in iPhone Simulator. They are useful when running unit and UI tests in CIs like [Travis](https://travis-ci.org).
+[Fastlane](https://github.com/fastlane/fastlane) actions to grant iOS permissions in iPhone Simulator. They are useful when running unit and UI tests in CIs like [Travis](https://travis-ci.org). By running the actions before your tests, your app will not be prompted to allow Photos access, etc.
+
+![](https://raw.githubusercontent.com/nicnocquee/fastgrant/master/preview.png)
 
 Installation
 ==
